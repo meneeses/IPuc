@@ -52,6 +52,7 @@ header {
   color: #fff;
   padding: 0 1rem;
   transition: opacity .5s;
+  cursor: pointer;
 }
 
 .nav-link:hover {
@@ -88,3 +89,27 @@ header {
   height: 4.4rem;
   background: url('/images/icons/bag.svg') no-repeat center;
 }
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+background-color: #165bd0;
+color: #fff;
+padding: 0.8rem 1.6rem;
+border-radius: 10rem;
+border: none;
+cursor: pointer;
+transition: background-color .5s;
+}
+
+.login-button:hover {
+  background-color: #3e6dbb;
+}
+
+

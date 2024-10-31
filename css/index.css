@@ -35,10 +35,10 @@
   letter-spacing: .007em;
 }
 .escolha {
-text-align: center;
-display: inline;
-color: #6E6E73;
-font-size: 25px;
+  text-align: center;
+  display: inline;
+  color: #6E6E73;
+  font-size: 25px;
 }
 .iphone16 {
   background-color: white;
@@ -54,7 +54,8 @@ font-size: 25px;
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-button {
+
+.buy-iphone {
   background: #0c9cee;
   color: white;
   border: none;
@@ -64,9 +65,8 @@ button {
   padding: 15px 20px;
   cursor: pointer;
  
- 
 }
-button:hover {
+.buy-iphone:hover {
   background: #FFFFFF;
   color:#0c9cee;
   opacity: 0.9;
