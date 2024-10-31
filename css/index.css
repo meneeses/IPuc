@@ -34,18 +34,6 @@
     padding-right: 1rem;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  font-size: 0.9rem;
-}
-nav a {
-  color: #1d1d1f;
-  text-decoration: none;
-}
-
 .divulgacao {
   display: inline;
   font-size: 20px;
