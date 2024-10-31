@@ -1,0 +1,58 @@
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile {
+    display: none;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0 1rem;
+    transition: opacity .5s;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    opacity: .7;
+}
+
+.nav-link-ipuc {
+    font-size: 1.6rem;
+    height: 4.4rem;
+    width: 2rem;
+    background: url('/images/icons/apple.svg') no-repeat center;
+    background-size: contain;
+    margin-right: 0.5rem;
+    /* Espaço entre logo e texto */
+}
+
+.text-logo {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.nav-link-search {
+    font-size: 1.6rem;
+    height: 4.4rem;
+    background: url('/images/icons/search.svg') no-repeat center;
+}
+
+.nav-link-bag {
+    font-size: 1.6rem;
+    height: 4.4rem;
+    background: url('/images/icons/bag.svg') no-repeat center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
