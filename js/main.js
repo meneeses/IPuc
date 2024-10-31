@@ -27,5 +27,3 @@ function initializePage(){
 }
 
 document.addEventListener("DOMContentLoaded", initializePage);
-
-console.log('está funcionando');
