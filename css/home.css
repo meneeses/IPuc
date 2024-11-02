@@ -8,14 +8,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1 {
+  margin: 20px;
+}
 
 .hero {
   color: #fff; /* Ajuste para uma cor que contraste com o gradiente */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona sombra para melhor legibilidade */
   text-align: center;
-  font-size: 25px;
-  padding: 100px 20px;
+  font-size: 20px;
+  padding: 200px;
   background: linear-gradient(90deg, #0a0a23, #6e00d7, #ff5a5f, #ffd75f);
+  height: 650px;
   background-size: 300% 300%; /* Para suavizar a transição */
   animation: gradientAnimation 10s ease infinite;
   padding-bottom: 50px;
@@ -28,6 +32,24 @@
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+.cta-button {
+  background-color: #007aff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px; /* Espaço acima */
+    margin-bottom: 20px; /* Espaço abaixo */
+    transition: background-color 0.3s;
+    font-size: 17px;
+}
+
+.cta-button:hover {
+  background-color: #005bb5;
+}
+
 
 .logo {
     font-size: 1.5rem;
@@ -45,7 +67,7 @@
   color: #6E6E73;
   font-size: 25px;
 }
-.iphone16 {
+.produtos {
   background-color: white;
   max-width: 400px;
   margin: 20px;
@@ -55,12 +77,12 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
  
 }
-.iphone16:hover {
+.produtos:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.buy-iphone {
+.buy-product {
   background: #0c9cee;
   color: white;
   border: none;
@@ -71,9 +93,8 @@
   cursor: pointer;
  
 }
-.buy-iphone:hover {
+.buy-product:hover {
   background: #FFFFFF;
   color:#0c9cee;
   opacity: 0.9;
 }
-
